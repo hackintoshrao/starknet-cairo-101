@@ -96,9 +96,14 @@ This project can be made better and will evolve as StarkNet matures. Your contri
 - In other words, every wallet on StarkNet is a smart contract and there is no distinction between them and other smart contracts. The wallet extension automatically deploys a transaction you need that publishes your smart contract wallet to the network. You can view this transaction in the activity your wallet. On clicking the activity, it redirects to https://testnet.starkscan.co/ where you view the details of the transaction.
 ![transaction activity](./assets/transaction.gif)
 
-- The tutorial's points are held in contract `0x5c6b1379f1d4c8a4f5db781a706b63a885f3f9570f7863629e99e2342ac344c` ([Starkscan link](https://testnet.starkscan.co/contract/0x05c6b1379f1d4c8a4f5db781a706b63a885f3f9570f7863629e99e2342ac344c), [Voyager link](https://goerli.voyager.online/contract/0x5c6b1379f1d4c8a4f5db781a706b63a885f3f9570f7863629e99e2342ac344c)). 
-- Click on "Add Token" in your installed wallet and the contract address to get your points balance to show up there! A new token called SC101 (starknet-cairo-101) will appear in your wallet.
-- Connect the block explorer ([Starkscan](https://testnet.starkscan.co/) or [Voyager](https://goerli.voyager.online/)) to your account smart contract. These are block explorers for StarkNet (the equivalent of Etherscan for Ethereum) and allow you to browse the state of the blockchain, view all transactions and their status. By connecting a block explorer to your wallet, you will be able to broadcast your transactions through your wallet.
+- Smart contracts on Starknet's can be used to create and hold new special purpose tokens. For the purpose of the tutorial we've created a token called SC-101 (starknet-cairo-101) to use it for tutorial points. - The token is deployed using a contract with address `0x5c6b1379f1d4c8a4f5db781a706b63a885f3f9570f7863629e99e2342ac344c` ([Starkscan link](https://testnet.starkscan.co/contract/0x05c6b1379f1d4c8a4f5db781a706b63a885f3f9570f7863629e99e2342ac344c), [Voyager link](https://goerli.voyager.online/contract/0x5c6b1379f1d4c8a4f5db781a706b63a885f3f9570f7863629e99e2342ac344c)). 
+- You next step is to add the SC101 token to your newly installed wallet using the contract address `0x5c6b1379f1d4c8a4f5db781a706b63a885f3f9570f7863629e99e2342ac344c`. 
+Click on "Add Token" and copy the contract address, enter the token address to add the token. A new token called SC101 (starknet-cairo-101) will appear in your wallet.
+![add token](./assets/add-token.gif)
+
+- You can track all of the account/wallet using activity with the help of the block explorer ([Starkscan](https://testnet.starkscan.co/) or [Voyager](https://goerli.voyager.online/)). These are block explorers for StarkNet (the equivalent of Etherscan for Ethereum) and allow you to browse the state of the blockchain, view all transactions and their status.Here's is how you can view your account on Starkscan.
+![starkscan](./assets/starkscan.gif)
+
 - To execute transactions on the Goerli StarkNet testnet **you'll need testnet ETH to pay for gas**. To get some, go to the [faucet](https://faucet.goerli.starknet.io/) and follow the instructions. It could take several minutes, but you should receive some L2 Goerli ETH in your wallet that you can use to execute transactions on the testnet.
 
 ### Solving exercises & Getting points​
