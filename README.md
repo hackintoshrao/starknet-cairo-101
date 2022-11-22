@@ -189,6 +189,9 @@ Here are the links to the exercises, and the instructions to complete them.
 - Execute the instructions, if your interaction is successful, you'll execute a transaction that will create a token for you.
 
 For your convenience, here's a quick preview of how to solve the first exercise.
+![ex1](./assets/ex1.gif)
+
+You're all set :) Again, please don't hesitate to reach out if you're stuck or have some questions. Join our [Discord server](https://starknet.io/discord), register, and share your thoughts/questions in the channel #tutorials-support. All the best with your Cairo journey.
 
 
 | Topic | Contract code | Contract on Starkscan | Contract on Voyager |
