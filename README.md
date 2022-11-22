@@ -118,6 +118,7 @@ Click on "Add Token", copy the contract address, and enter the token address to 
 - To execute transactions on the Goerli StarkNet testnet **you'll need testnet ETH to pay for gas**. To get some, first copy your account/wallet address, go to the [faucet site](https://faucet.goerli.starknet.io/), paste your the account address and click send request.
 
   ![get test token](./assets/get-test-token.gif)
+  
 It could take several minutes, but you should receive some L2 Goerli ETH in your wallet that you can use to execute transactions on the testnet.
 You should see the following confirmation along with the transaction ID on successful transfer of the L2 Goerli ETH.
 
@@ -215,7 +216,7 @@ You're all set :) Again, please don't hesitate to reach out if you're stuck or h
 Your points will get credited to your installed wallet; though this may take some time. If you want to monitor your points count in real-time, you can also see your balance in a block explorer!
 ​
 
-- Go to the ERC20 counter on [Voyager](https://goerli.voyager.online/contract/0x5c6b1379f1d4c8a4f5db781a706b63a885f3f9570f7863629e99e2342ac344c#readContract) or [Starkscan](https://testnet.starkscan.co/contract/0x5c6b1379f1d4c8a4f5db781a706b63a885f3f9570f7863629e99e2342ac344c#read-contract), in the "read contract" tab.
+- Go to the ERC20 counter on [Voyager](https://goerli.voyager.online/contract/  0x5c6b1379f1d4c8a4f5db781a706b63a885f3f9570f7863629e99e2342ac344c#readContract) or [Starkscan](https://testnet.starkscan.co/contract/0x5c6b1379f1d4c8a4f5db781a706b63a885f3f9570f7863629e99e2342ac344c#read-contract), in the "read contract" tab.
 - Enter your address in the "balanceOf" function.
 
 You can also check your overall progress [here](https://starknet-tutorials.vercel.app).
